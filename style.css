@@ -1,0 +1,121 @@
+    body,
+    html {
+        background: #ecedef;
+        margin: 0;
+        padding: 0;
+    }
+    
+     ::placeholder {
+        color: white;
+        opacity: 1;
+        /* Firefox */
+    }
+    
+     :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: white;
+    }
+    
+     ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: white;
+    }
+    
+    .container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        border-radius: 14px;
+        padding-bottom: 20px;
+        width: 450px;
+        -webkit-box-shadow: -1px -2px 40px 9px rgba(18, 18, 18, 1);
+        -moz-box-shadow: -1px -2px 40px 9px rgba(18, 18, 18, 1);
+        box-shadow: -1px -2px 40px 9px rgba(18, 18, 18, 1);
+    }
+    
+    .display {
+        width: 100%;
+        height: 60px;
+        padding: 40px 0;
+        background: rgb(131, 134, 134);
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+    }
+    
+    .buttons {
+        padding: 20px 20px 0 20px;
+    }
+    
+    .clrButtons {
+        padding: 20px 20px 0 20px;
+        width: 150px !important;
+    }
+    
+    .row {
+        width: 450px;
+        float: left;
+    }
+    
+    input[type="button"] {
+        width: 85px;
+        height: 85px;
+        float: left;
+        padding: 0;
+        margin: 5px;
+        box-sizing: border-box;
+        background: #ecedef;
+        border: none;
+        font-size: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    #ab1:hover {
+        background-color: #5e5858;
+        color: white;
+    }
+    
+    #ab1:focus {
+        outline: none;
+    }
+    
+    .r1 {
+        width: 390px;
+        height: 50px;
+        float: left;
+        padding-bottom: 5px;
+        box-sizing: border-box;
+        border: none;
+        background: none;
+        color: white !important;
+        text-align: left;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0 25px;
+    }
+    
+    .r1,
+    .r2:focus {
+        outline: none;
+    }
+    
+    .r2 {
+        width: 390px;
+        height: 40px;
+        float: left;
+        padding-top: 10px;
+        box-sizing: border-box;
+        border: none;
+        background: none;
+        color: white !important;
+        text-align: left;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        margin: 0 25px;
+    }
